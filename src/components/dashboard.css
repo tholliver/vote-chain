@@ -1,0 +1,43 @@
+.container-res {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cards-container{
+  display: flex;
+  gap: 3em;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.massa-x {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding-bottom: 5%;
+}
+.side-y {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chart-js {
+  width: 90%;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.text-graph{
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}

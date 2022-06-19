@@ -1,0 +1,41 @@
+.containerDonuts {
+}
+
+.massa-c-v {
+  width: 100%;
+}
+
+.chart-js-l{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.last-title{
+  background-color: coral;
+  border-radius: 5px;
+  text-align: center;
+}
+.massa-c-v{
+  align-items: center;
+ 
+
+}
+
+.download-pdf{
+  padding-top:15px;
+  padding-bottom:15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.char-j {
+  padding: 25px;
+  width: 505px;
+  height: 350px;
+}
+
+/* THE END OF THE IMPORTANT STUFF */

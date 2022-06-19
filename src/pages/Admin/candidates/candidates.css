@@ -1,0 +1,32 @@
+.wholeContent {
+  display: flex;
+
+  width: 100%;
+}
+
+.fields-container{
+  width: 70%;
+}
+
+.label-text-input{
+  padding: 7px;
+}
+
+.helper-text-c{
+  padding-bottom: 12px;
+  padding-top: 12px;  
+}
+.titleAdd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  margin: 10px;
+ 
+  width: 100%;
+}
+
+.rightSide {
+  width: 100%;
+}

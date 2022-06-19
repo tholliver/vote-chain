@@ -1,0 +1,10 @@
+.una-text-full{
+    width: 100%;
+}
+
+.center-help-auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
