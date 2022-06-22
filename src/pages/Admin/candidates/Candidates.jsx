@@ -32,7 +32,7 @@ export default function Candidates() {
   const charges = electionDets.Cargos();
   const actualElection = electionDets.CadidadesNames();
   const [election, setElection] = useState([]);
-  
+
   const [errorMessage, setErrorMessage] = useState("");
   const [name, setName] = useState("");
   const [apellido, setApellido] = useState("");
@@ -41,7 +41,6 @@ export default function Candidates() {
   //Will pass the data pf the actual candies
 
   const [rows, setRows] = React.useState([]);
-
 
   const [expanded, setExpanded] = React.useState(false);
 
@@ -57,9 +56,6 @@ export default function Candidates() {
     };
     getData();
   }, [election]);
-
-
-
 
   const handleChange = (panel) => (event, isExpanded) => {
     setExpanded(isExpanded ? panel : false);
@@ -111,8 +107,8 @@ export default function Candidates() {
 
       console.log("Finished");
     } else {
-      setErrorMessage('Error el candidato ya es candidato.');
-    //  console.log("candidate duplicate");
+      setErrorMessage("Error el candidato ya esta registrado.");
+      //  console.log("candidate duplicate");
     }
   };
 
@@ -142,9 +138,7 @@ export default function Candidates() {
                 onChange={(e) => setName(e.target.value)}
                 label="Ingrese un nombre"
                 variant="outlined"
-                helperText={
-                  errorMessage
-                 }
+                helperText={errorMessage}
               />
             </div>
             <div className="">

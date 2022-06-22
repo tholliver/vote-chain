@@ -5,26 +5,24 @@
   width: 100%;
 }
 
-.chart-js-l{
+.chart-js-l {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.last-title{
+.last-title {
   background-color: coral;
   border-radius: 5px;
   text-align: center;
 }
-.massa-c-v{
+.massa-c-v {
   align-items: center;
- 
-
 }
 
-.download-pdf{
-  padding-top:15px;
-  padding-bottom:15px;
+.download-pdf {
+  padding-top: 15px;
+  padding-bottom: 15px;
   width: 100%;
   display: flex;
   flex-direction: row;

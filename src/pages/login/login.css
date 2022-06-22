@@ -5,8 +5,7 @@
   align-items: center;
 }
 
-.error-text{
-  
+.error-text {
   text-align: center;
   background-color: #ff5252;
 }
@@ -14,12 +13,12 @@
 .login-section {
   width: 50%;
 }
-#outlined-basic{
+#outlined-basic {
   padding: 15px;
 }
 
-.text-field{
- margin: 15px;
+.text-field {
+  margin: 15px;
 }
 
 .login-form {
@@ -35,14 +34,12 @@
 }
 
 .label-login {
- 
-} 
+}
 
-.login-button{
+.login-button {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .login-heading {
@@ -50,4 +47,3 @@
   margin: 10px 0;
   text-align: center;
 }
-

@@ -65,7 +65,7 @@ export default function Vote() {
         console.log("Error", err);
       });
       setElection(resp.data);
-       console.log('LAAAAAA FECHAAA',election[0]?.fechaLimit)
+      console.log("LAAAAAA FECHAAA", election[0]?.fechaLimit);
     };
     getData();
   }, [selectedOnes]);
@@ -91,7 +91,7 @@ export default function Vote() {
     /* Here we redirect  */
     let noob = await voteService.voting(voting);
 
-   // console.log("GUMMMMM.....", noob);
+    // console.log("GUMMMMM.....", noob);
     if (noob) {
       // console.log("Getting masssss:",Object.keys(noob?.length))
       console.log("In if", noob);
@@ -140,10 +140,7 @@ export default function Vote() {
           election[0]?.fechaLimit
           2022-06-18T01:34:34.000Z
              */}
-      {election[0] &&
-      moment(election[0]?.fechaLimit).isBefore(
-        new Date()
-      ) ? (
+      {election[0] && moment(election[0]?.fechaLimit).isBefore(new Date()) ? (
         <Navigate to="/" state={{ from: location }} replace />
       ) : (
         <div>
@@ -202,7 +199,8 @@ export default function Vote() {
                                               variant="h5"
                                               component="div"
                                             >
-                                              {candidato.name} {/* NAME */}
+                                              {candidato.name}{" "}
+                                              {candidato.apellido}
                                             </Typography>
                                             <Typography
                                               variant="body2"

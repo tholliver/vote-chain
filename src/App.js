@@ -22,6 +22,7 @@ import ListReport from "./components/Reports/ListReport";
 // import AddCandidate from "./pages/Admin/candidates/addCandidate";
 import AuthService from "./services/authentication.service";
 import Election from "./pages/election/Election";
+import Register from "./pages/registration/Register";
 
 import AddCharge from "./pages/Admin/addCharge";
 import Dashboard from "./components/Dashboard";
@@ -57,6 +58,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="unauthorized" element={<Unauthorized />} />
         <Route path="*" element={<NotFound />} />
 

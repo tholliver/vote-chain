@@ -7,7 +7,7 @@ import { AuthProvider } from "./context/AuthProvider";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import ListReport from "./components/Reports/ListReport";
-import ResultsPollDoc from './components/Reports/ResultsPoll';
+import ResultsPollDoc from "./components/Reports/ResultsPoll";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
